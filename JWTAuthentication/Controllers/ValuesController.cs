@@ -11,6 +11,7 @@ namespace JWTAuthentication.Controllers
     {
         // GET api/values
         [HttpGet]
+        // JWT Authentication token is used to call this API
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "This is method is called after verifying JWT Token" };
