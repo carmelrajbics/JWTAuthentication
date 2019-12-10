@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Carmel\\Learning\\Azure\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {}
+  },
+  "projects": {
+    "C:\\Carmel\\Learning\\Azure\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Carmel\\Learning\\Azure\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
+        "projectName": "JWTAuthentication",
+        "projectPath": "C:\\Carmel\\Learning\\Azure\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
+        "packagesPath": "C:\\Users\\wk29\\.nuget\\packages\\",
+        "outputPath": "C:\\Carmel\\Learning\\Azure\\JWTAuthentication\\JWTAuthentication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wk29\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
